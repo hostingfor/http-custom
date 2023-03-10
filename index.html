@@ -10,6 +10,7 @@
 	</style>
 </head>
 <body>
+<div><br /></div><div><br /></div><div><br /></div><div><br /></div>
 	<p style="text-align: center;">SILAHKAN PILIH SESUAI KEBUTUHAN</p>
 	<p style="text-align: center;"><br /></p>
 	<p style="text-align: center;">Telkomsel</p>
@@ -39,5 +40,11 @@
 	<div style="text-align: center;"><br /></div>
 	<div style="text-align: center;"><br /></div>
 	<div style="text-align: center;">Gunakan Dengan Bijak</div>
+	<script>
+		setInterval(function() {
+			var randomColor = Math.floor(Math.random()*16777215).toString(16);
+			document.body.style.backgroundColor = "#" + randomColor;
+		}, 2000);
+	</script>
 </body>
 </html>
